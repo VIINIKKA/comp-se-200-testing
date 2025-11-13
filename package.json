@@ -4,7 +4,8 @@
   "description": "comp-se-200-testing-implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
